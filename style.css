@@ -1,1 +1,5 @@
 /* stylesheet for cocktail builder */
+h1 {
+    background-color: indianred;
+    color: blue;
+}
