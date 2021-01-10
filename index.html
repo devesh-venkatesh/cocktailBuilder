@@ -5,25 +5,66 @@
 </head>
 <body>
     <h1 id="title">This is a cocktail builder</h1>
-    <p> do some stuff</p>
 
     <form id="form">
-        <input type="checkbox" id="vodka" name="vodka" value="vodka" class="ing">
-        <label for="vodka"> vodka</label><br>
-        <input type="checkbox" id="gin" name="gin" value="gin" class="ing">
-        <label for="gin"> gin</label><br>
-        <input type="checkbox" id="tequila" name="tequila" value="tequila" class="ing">
-        <label for="tequila"> tequila</label><br>
-        <input type="checkbox" id="white-rum" name="white-rum" value="white-rum" class="ing">
-        <label for="white-rum"> white rum</label><br>
-        <input type="checkbox" id="dark-rum" name="dark-rum" value="dark-rum" class="ing">
-        <label for="dark-rum"> dark rum</label><br>
-        <input type="checkbox" id="whiskey" name="whiskey" value="whiskey" class="ing">
-        <label for="whiskey"> whiskey</label><br>
-        <input type="checkbox" id="tequila" name="tequila" value="tequila" class="ing">
-        <label for="tequila"> tequila</label><br>
-        <input type="checkbox" id="tequila" name="tequila" value="tequila" class="ing">
-        <label for="tequila"> tequila</label><br>
+        <div id="base-liquors">
+        <h3>Base Liquors</h3>
+            <input type="checkbox" id="vodka" name="vodka" value="vodka" class="ing">
+            <label for="vodka"> vodka</label><br>
+            <input type="checkbox" id="gin" name="gin" value="gin" class="ing">
+            <label for="gin"> gin</label><br>
+            <input type="checkbox" id="tequila" name="tequila" value="tequila" class="ing">
+            <label for="tequila"> tequila</label><br>
+            <input type="checkbox" id="white-rum" name="white-rum" value="white rum" class="ing">
+            <label for="white-rum"> white rum</label><br>
+            <input type="checkbox" id="dark-rum" name="dark-rum" value="dark rum" class="ing">
+            <label for="dark-rum"> dark rum</label><br>
+            <input type="checkbox" id="whiskey" name="whiskey" value="whiskey" class="ing">
+            <label for="whiskey"> whiskey</label><br>
+            <input type="checkbox" id="brandy" name="brandy" value="brandy" class="ing">
+            <label for="brandy"> brandy</label><br>
+        </div>
+        <div id="liqueurs">
+        <h3>Liquers</h3>
+            <input type="checkbox" id="amaretto" name="amaretto" value="amaretto" class="ing">
+            <label for="amaretto"> amaretto</label><br>
+            <input type="checkbox" id="coffee-liqueur" name="coffee-liqueur" value="coffee liqueur" class="ing">
+            <label for="coffee-liqueur"> coffee liqueur</label><br>
+            <input type="checkbox" id="dry-vermouth" name="dry-vermouth" value="dry vermouth" class="ing">
+            <label for="dry-vermouth"> dry vermouth</label><br>
+            <input type="checkbox" id="sweet-vermouth" name="sweet-vermouth" value="sweet vermouth" class="ing">
+            <label for="sweet-vermouth"> sweet vermouth</label><br>
+            <input type="checkbox" id="irish-cream-liqueur" name="irish-cream-liqueur" value="irish cream liqueur" class="ing">
+            <label for="irish-cream-liqueur"> irish cream liqueur</label><br>
+            <input type="checkbox" id="orange-liqueur" name="orange-liqueur" value="orange liqueur" class="ing">
+            <label for="orange-liqueur"> orange liqueur</label><br>
+        </div>
+        <div id="fruits-and-juice">
+        <h3>Fruits and Juice</h3>
+            <input type="checkbox" id="lemon" name="lemon" value="lemon" class="ing">
+            <label for="lemon"> lemon</label><br>
+            <input type="checkbox" id="lime" name="lime" value="lime" class="ing">
+            <label for="lime"> lime</label><br>
+            <input type="checkbox" id="orange-juice" name="orange-juice" value="orange juice" class="ing">
+            <label for="orange-juice"> orange juice</label><br>
+            <input type="checkbox" id="cranberry-juice" name="cranberry-juice" value="cranberry juice" class="ing">
+            <label for="cranberry-juice"> cranberry juice</label><br>
+            <input type="checkbox" id="grapefruit-juice" name="grapefruit-juice" value="grapefruit juice" class="ing">
+            <label for="grapefruit-juice"> grapefruit juice</label><br>
+            <input type="checkbox" id="pineapple-juice" name="pineapple-juice" value="pineapple juice" class="ing">
+            <label for="pineapple-juice"> pineapple juice</label><br>
+            <input type="checkbox" id="tomato-juice" name="tomato-juice" value="tomato juice" class="ing">
+            <label for="tomato-juice"> tomato juice</label><br>
+        </div>
+        <div id="mixers">
+        <h3>Mixers</h3>
+            <input type="checkbox" id="orange-bitters" name="orange-bitters" value="orange bitters" class="ing">
+            <label for="orange-bitters"> orange bitters</label><br>
+            <input type="checkbox" id="angostura" name="angostura" value="angostura" class="ing">
+            <label for="angostura"> angostura</label><br>
+            <input type="checkbox" id="peyhchauds" name="peyhchauds" value="peyhchauds" class="ing">
+            <label for="peyhchauds"> peyhchauds</label><br>
+        </div>
         <input type="button" value="Submit" onclick="allInputs()">
     </form>
     <script src="myFunc.js"></script>
