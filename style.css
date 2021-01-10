@@ -1,5 +1,43 @@
 /* stylesheet for cocktail builder */
-h1 {
-    background-color: indianred;
-    color: blue;
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2d3c47;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Zilla Slab', serif;
+    font-size: 4vw;
+}
+
+h3 {
+    font-family: 'Domine', serif;
+    color: whitesmoke;
+    font-size: 3vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: whitesmoke;
+    font-size: 2vw;
+}
+
+#button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 3vw;
+    background-color: #47362d;
+    color: whitesmoke;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2vw;
+    margin: 5px 5px 5px 5px;
+
 }

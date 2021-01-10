@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Domine&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 id="title">This is a cocktail builder</h1>
@@ -15,10 +17,8 @@
             <label for="gin"> gin</label><br>
             <input type="checkbox" id="tequila" name="tequila" value="tequila" class="ing">
             <label for="tequila"> tequila</label><br>
-            <input type="checkbox" id="white-rum" name="white-rum" value="white rum" class="ing">
-            <label for="white-rum"> white rum</label><br>
-            <input type="checkbox" id="dark-rum" name="dark-rum" value="dark rum" class="ing">
-            <label for="dark-rum"> dark rum</label><br>
+            <input type="checkbox" id="rum" name="rum" value="rum" class="ing">
+            <label for="rum"> rum</label><br>
             <input type="checkbox" id="whiskey" name="whiskey" value="whiskey" class="ing">
             <label for="whiskey"> whiskey</label><br>
             <input type="checkbox" id="brandy" name="brandy" value="brandy" class="ing">
@@ -38,6 +38,8 @@
             <label for="irish-cream-liqueur"> irish cream liqueur</label><br>
             <input type="checkbox" id="orange-liqueur" name="orange-liqueur" value="orange liqueur" class="ing">
             <label for="orange-liqueur"> orange liqueur</label><br>
+            <input type="checkbox" id="campari" name="campari" value="campari" class="ing">
+            <label for="campari"> campari</label><br>
         </div>
         <div id="fruits-and-juice">
         <h3>Fruits and Juice</h3>
@@ -64,9 +66,20 @@
             <label for="angostura"> angostura</label><br>
             <input type="checkbox" id="peyhchauds" name="peyhchauds" value="peyhchauds" class="ing">
             <label for="peyhchauds"> peyhchauds</label><br>
+            <input type="checkbox" id="simple-syrup" name="simple-syrup" value="simple syrup" class="ing">
+            <label for="simple-syrup"> simple syrup</label><br>
+            <input type="checkbox" id="honey-syrup" name="honey-syrup" value="honey syrup" class="ing">
+            <label for="honey-syrup"> honey syrup</label><br>
+            <input type="checkbox" id="grenadine" name="grenadine" value="grenadine" class="ing">
+            <label for="grenadine"> grenadine</label><br>
+            <input type="checkbox" id="soda" name="soda" value="soda" class="ing">
+            <label for="soda"> soda</label><br>
         </div>
-        <input type="button" value="Submit" onclick="allInputs()">
+        <input type="button" id="button" value="Give me recipes" onclick="allInputs()">
     </form>
+    <div id="recipes">
+    </div>
+
     <script src="myFunc.js"></script>
 </body>
 </html>
