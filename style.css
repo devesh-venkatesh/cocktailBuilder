@@ -41,3 +41,12 @@ form {
     margin: 5px 5px 5px 5px;
 
 }
+
+#recipes {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 2vw;
+}
